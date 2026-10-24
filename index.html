@@ -12,7 +12,7 @@
     <meta name="theme-color" content="#4f46e5">
     
     <!-- Dynamic Web App Manifest via Data URI -->
-    <link rel="manifest" href='data:application/manifest+json;charset=utf-8,%7B%22name%22%3A%22%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B5%E0%B8%A2%E0%B8%99%E0%B8%84%E0%B8%B8%E0%B8%A1%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B9%83%E0%B8%81%E0%B4%B6%E0%B9%88%E0%B8%B2%E0%B0%A2%E0%B0%8A%E0%B9%88%E0%B0%88%E0%B0%B2%E0%B0%A2%E0%B0%AA%E0%B9%88%E0%B0%A7%E0%B0%99%E0%B0%AB%E0%B1%80%E0%B0%87%E0%B0%87%22%2C%22short_name%22%3A%22%E0%B8%97%E0%B8%AF%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23f8fafc%22%2C%22theme_color%22%3A%22%234f46e5%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22https%3A%2F%2Fplacehold.co%2F192x192%2F4f46e5%2Fffffff%3Ftext%3D%25E0%25B8%2597%25E0%25B8%25B1%25E0%25B8%25A8%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22https%3A%2F%2Fplacehold.co%2F512x512%2F4f46e5%2Fffffff%3Ftext%3D%25E0%25B8%2597%25E0%25B8%25B1%25E0%25B8%25A8%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%7D%5D%7D'>
+    <link rel="manifest" href='data:application/manifest+json;charset=utf-8,%7B%22name%22%3A%22%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%9A%E0%B8%B2%E0%B8%A2%E0%B8%99%E0%B8%84%E0%B3%89%E0%B8%B0%E0%B0%A8%E0%B3%89%E0%B0%88%E0%B0%A2%E0%B0%AA%E0%B0%8A%E0%B0%88%E0%B1%80%E0%B0%87%22%2C%22short_name%22%3A%22%E0%B8%97%E0%B8%AF%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23f8fafc%22%2C%22theme_color%22%3A%22%234f46e5%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22https%3A%2F%2Fplacehold.co%2F192x192%2F4f46e5%2Fffffff%3Ftext%3D%25E0%25B8%2597%25E0%25B8%25B1%25E0%25B8%25A8%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22https%3A%2F%2Fplacehold.co%2F512x512%2F4f46e5%2Fffffff%3Ftext%3D%25E0%25B8%2597%25E0%25B8%25B1%25E0%25B8%25A8%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%7D%5D%7D'>
     
     <!-- Apple Touch Icon -->
     <link rel="apple-touch-icon" href="https://placehold.co/180x180/4f46e5/ffffff?text=ทค">
@@ -48,9 +48,9 @@
             </div>
             <div>
                 <h2 class="text-2xl font-bold text-slate-900">ทะเบียนคุมค่าใช้จ่ายส่วนตัว</h2>
-                <p class="text-xs text-slate-500 mt-1">เข้าสู่ระบบด้วย Google เพื่อจัดการบัญชีและการเงินส่วนตัวของคุณ</p>
+                <p class="text-xs text-slate-500 mt-1">เข้าสู่ระบบเพื่อจัดการบัญชีและการเงินส่วนตัวของคุณ</p>
             </div>
-            <button onclick="loginWithGoogle()" class="w-full py-3.5 px-4 bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-semibold rounded-2xl shadow-sm transition flex items-center justify-center space-x-3">
+            <button onclick="window.loginWithGoogle()" class="w-full py-3.5 px-4 bg-white hover:bg-slate-50 border border-slate-300 text-slate-700 font-semibold rounded-2xl shadow-sm transition flex items-center justify-center space-x-3">
                 <svg class="w-5 h-5" viewBox="0 0 24 24">
                     <path fill="#4285F4" d="M23.745 12.27c-.7-.06-1.4-.19-2.07H12v4.51h6.6c-.29 1.52-1.14 2.82-2.4 3.68v3.05h3.88c2.27-2.09 3.66-5.17 3.66-9.17z"/>
                     <path fill="#34A853" d="M12 24c3.24 0 5.95-1.08 7.93-2.91l-3.88-3.05c-1.08.72-2.45 1.16-4.05 1.16-3.13 0-5.78-2.11-6.73-4.96H1.18v3.14C3.15 21.32 7.22 24 12 24z"/>
@@ -58,6 +58,10 @@
                     <path fill="#EA4335" d="M12 4.75c1.77 0 3.35.61 4.6 1.8l3.42-3.42C17.95 1.19 15.24 0 12 0 7.22 0 3.15 2.68 1.18 6.62l4.09 3.14c.95-2.85 3.6-4.96 6.73-4.96z"/>
                 </svg>
                 <span>เข้าสู่ระบบด้วย Google</span>
+            </button>
+            <button onclick="window.loginAnonymously()" class="w-full py-3 px-4 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-2xl shadow-md transition flex items-center justify-center space-x-2 text-xs">
+                <i class="fa-solid fa-user-shield"></i>
+                <span>เข้าใช้งานทันที (โหมดส่วนตัว)</span>
             </button>
             <div id="authStatus" class="text-xs text-slate-400">ระบบเชื่อมต่อคลาวด์ปลอดภัย</div>
         </div>
@@ -72,15 +76,15 @@
                 </div>
                 <h3 id="modalTitle" class="text-lg font-bold text-slate-800 mb-2">แจ้งเตือน</h3>
                 <p id="modalMessage" class="text-sm text-slate-600 mb-6">ข้อความ...</p>
-                <button onclick="closeModal()" class="w-full py-2.5 bg-indigo-600 text-white rounded-xl font-medium hover:bg-indigo-700 transition">ตกลง</button>
+                <button onclick="window.closeModal()" class="w-full py-2.5 bg-indigo-600 text-white rounded-xl font-medium hover:bg-indigo-700 transition">ตกลง</button>
             </div>
         </div>
     </div>
 
     <!-- Full Image View Modal -->
-    <div id="imageModal" class="fixed inset-0 bg-black/85 z-50 flex items-center justify-center hidden p-4" onclick="closeImageModal()">
+    <div id="imageModal" class="fixed inset-0 bg-black/85 z-50 flex items-center justify-center hidden p-4" onclick="window.closeImageModal()">
         <div class="relative max-w-2xl w-full text-center">
-            <button onclick="closeImageModal()" class="absolute -top-10 right-0 text-white text-xl hover:text-slate-300"><i class="fa-solid fa-xmark"></i></button>
+            <button onclick="window.closeImageModal()" class="absolute -top-10 right-0 text-white text-xl hover:text-slate-300"><i class="fa-solid fa-xmark"></i></button>
             <img id="modalImageFull" src="" alt="Full Receipt" class="max-h-[80vh] mx-auto rounded-xl shadow-2xl">
         </div>
     </div>
@@ -98,7 +102,7 @@
                         <p class="text-xs text-indigo-100">ทะเบียนคุมค่าใช้จ่ายส่วนตัว</p>
                     </div>
                 </div>
-                <button onclick="closeGuideModal()" class="text-white hover:text-indigo-200 text-xl px-2 py-1"><i class="fa-solid fa-xmark"></i></button>
+                <button onclick="window.closeGuideModal()" class="text-white hover:text-indigo-200 text-xl px-2 py-1"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <div class="p-6 overflow-y-auto space-y-6 text-sm text-slate-700 leading-relaxed">
                 <div class="bg-indigo-50 p-4 rounded-2xl border border-indigo-100 space-y-2">
@@ -109,37 +113,32 @@
                 <div class="space-y-4">
                     <div class="border-b border-slate-100 pb-3">
                         <h5 class="font-bold text-slate-900 flex items-center mb-1"><i class="fa-solid fa-chart-line text-emerald-600 mr-2"></i> 1. รู้เท่าทันสถานะการเงินแบบเรียลไทม์ (Real-Time Financial Health)</h5>
-                        <p class="text-xs text-slate-600">แดชบอร์ดอัจฉริยะจะทำการประเมินสุขภาพการเงินของคุณอัตโนมัติ พร้อมแสดงป้ายสถานะ (เช่น *"การเงินสมดุลดีเยี่ยม"* หรือ *"คำเตือน: รายจ่ายมากกว่ารายรับ"*) ป้องกันการใช้จ่ายเกินตัว</p>
+                        <p class="text-xs text-slate-600">แดชบอร์ดอัจฉริยะจะทำการประเมินสุขภาพการเงินของคุณอัตโนมัติ พร้อมแสดงป้ายสถานะ ป้องกันการใช้จ่ายเกินตัว</p>
                     </div>
 
                     <div class="border-b border-slate-100 pb-3">
-                        <h5 class="font-bold text-slate-900 flex items-center mb-1"><i class="fa-solid fa-credit-card text-indigo-600 mr-2"></i> 2. ควบคุมและบริหารวงเงินสินเชื่อ พร้อมคำนวณส่วนต่างดอกเบี้ยสะสม</h5>
-                        <p class="text-xs text-slate-600">บันทึกวงเงินและติดตามยอดใช้จ่ายคงเหลืออัตโนมัติ สามารถเพิ่มวงเงินสินเชื่อได้อิสระ (เช่น TrueMoney, Shopee PayLater) หากชำระเกินวงเงิน ระบบจะนำไปบันทึกแยกเป็นช่องดอกเบี้ย/ค่าธรรมเนียมสะสมให้อัตโนมัติ</p>
+                        <h5 class="font-bold text-slate-900 flex items-center mb-1"><i class="fa-solid fa-credit-card text-indigo-600 mr-2"></i> 2. ควบคุมและบริหารวงเงินสินเชื่อ / บัตร</h5>
+                        <p class="text-xs text-slate-600">บันทึกวงเงินและติดตามยอดใช้จ่ายคงเหลืออัตโนมัติ สามารถเพิ่มวงเงินสินเชื่อได้อิสระ หากชำระเกินวงเงิน ระบบจะบันทึกแยกเป็นดอกเบี้ยสะสมให้อัตโนมัติ</p>
                     </div>
 
                     <div class="border-b border-slate-100 pb-3">
-                        <h5 class="font-bold text-slate-900 flex items-center mb-1"><i class="fa-solid fa-car text-amber-600 mr-2"></i> 3. จัดการข้อมูลรถ และต่อ พ.ร.บ. / ภาษี</h5>
+                        <h5 class="font-bold text-slate-900 flex items-center mb-1"><i class="fa-solid fa-car text-amber-600 mr-2"></i> 3. ข้อมูลรถ และการต่อ พ.ร.บ. / ภาษี</h5>
                         <p class="text-xs text-slate-600">บันทึกข้อมูลรถ รูปถ่าย วันซื้อเพื่อคำนวณอายุรถ แจ้งเตือนวันหมดอายุ พ.ร.บ. และภาษี พร้อมบันทึกค่าใช้จ่ายและดูประวัติย้อนหลังของรถแต่ละคันได้ทันที</p>
                     </div>
 
                     <div class="border-b border-slate-100 pb-3">
-                        <h5 class="font-bold text-slate-900 flex items-center mb-1"><i class="fa-solid fa-calendar-days text-violet-600 mr-2"></i> 4. วางแผนการเงินล่วงหน้าด้วยปฏิทิน & Google Calendar</h5>
+                        <h5 class="font-bold text-slate-900 flex items-center mb-1"><i class="fa-solid fa-calendar-days text-violet-600 mr-2"></i> 4. วางแผนการเงินล่วงหน้าด้วยปฏิทิน</h5>
                         <p class="text-xs text-slate-600">มุมมองปฏิทินรายเดือนรวมวันหมดอายุ พ.ร.บ. และโน้ตแจ้งเตือนพิเศษ พร้อมปุ่มซิงค์เข้า Google Calendar ส่วนตัว</p>
                     </div>
 
                     <div>
                         <h5 class="font-bold text-slate-900 flex items-center mb-1"><i class="fa-solid fa-shield-halved text-teal-600 mr-2"></i> 5. ความปลอดภัยสูง ข้อมูลแยกเป็นส่วนตัว 100%</h5>
-                        <p class="text-xs text-slate-600">ระบบ Google Sign-In ที่แยกฐานข้อมูลเฉพาะตัวของผู้ใช้งานแต่ละคน (Data Isolation) ข้อมูลซิงค์ขึ้นคลาวด์ปลอดภัย ใช้งานได้ทั้งมือถือและคอมพิวเตอร์</p>
+                        <p class="text-xs text-slate-600">ระบบเข้าสู่ระบบที่แยกฐานข้อมูลเฉพาะตัวของผู้ใช้งานแต่ละคน ข้อมูลซิงค์ขึ้นคลาวด์ปลอดภัย ใช้งานได้ทั้งมือถือและคอมพิวเตอร์</p>
                     </div>
-                </div>
-
-                <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200 space-y-2">
-                    <h4 class="font-bold text-slate-900"><i class="fa-solid fa-trash-can text-rose-600 mr-1"></i> วิธีการล้างข้อมูล (Clear Data & Reset)</h4>
-                    <p class="text-xs text-slate-600">หากต้องการล้างข้อมูลเพื่อเริ่มต้นใหม่ สามารถใช้ปุ่ม **"ล้างข้อมูลทั้งหมด"** ในแท็บประวัติ เพื่อเคลียร์รายการและรีเซ็ตยอดใช้บัตรเป็น 0 โดยที่บัญชีผู้ใช้ยังอยู่ครับ</p>
                 </div>
             </div>
             <div class="p-4 bg-slate-50 border-t border-slate-100 text-right">
-                <button onclick="closeGuideModal()" class="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold transition">เข้าใจแล้ว</button>
+                <button onclick="window.closeGuideModal()" class="px-6 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold transition">เข้าใจแล้ว</button>
             </div>
         </div>
     </div>
@@ -148,11 +147,19 @@
     <div id="manageSourcesModal" class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center hidden">
         <div class="bg-white rounded-2xl p-6 max-w-md w-full mx-4 shadow-xl space-y-4">
             <h3 id="manageSourcesTitle" class="text-lg font-bold text-slate-800">จัดการรายการที่เพิ่มเอง</h3>
-            <div id="customSourcesList" class="space-y-2 max-h-60 overflow-y-auto">
+            
+            <!-- Quick Add New Source Input Form inside Modal -->
+            <form onsubmit="window.handleAddNewCustomSourceModal(event)" class="flex gap-2">
+                <input type="hidden" id="manageModalSourceType">
+                <input type="text" id="newCustomSourceInput" required placeholder="พิมพ์ชื่อรายการที่ต้องการเพิ่ม..." class="flex-grow px-3 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs focus:outline-none focus:border-indigo-500">
+                <button type="submit" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl text-xs font-semibold transition whitespace-nowrap"><i class="fa-solid fa-plus mr-1"></i> เพิ่ม</button>
+            </form>
+
+            <div id="customSourcesList" class="space-y-2 max-h-52 overflow-y-auto pt-2 border-t border-slate-100">
                 <!-- Populated by JS -->
             </div>
             <div class="pt-2 text-right">
-                <button onclick="closeManageSourcesModal()" class="px-4 py-2 bg-indigo-600 text-white rounded-xl text-xs font-semibold">ปิด</button>
+                <button onclick="window.closeManageSourcesModal()" class="px-4 py-2 bg-slate-200 hover:bg-slate-300 text-slate-700 rounded-xl text-xs font-semibold">ปิดหน้าต่าง</button>
             </div>
         </div>
     </div>
@@ -168,10 +175,9 @@
                         <p id="modalVehSubtitle" class="text-xs text-indigo-100">ทะเบียน: ...</p>
                     </div>
                 </div>
-                <button onclick="closeVehicleDetailModal()" class="text-white hover:text-indigo-200 text-xl px-2 py-1"><i class="fa-solid fa-xmark"></i></button>
+                <button onclick="window.closeVehicleDetailModal()" class="text-white hover:text-indigo-200 text-xl px-2 py-1"><i class="fa-solid fa-xmark"></i></button>
             </div>
             <div class="p-6 overflow-y-auto space-y-6 text-sm text-slate-700">
-                <!-- Summary Stats for this vehicle -->
                 <div class="grid grid-cols-2 gap-4">
                     <div class="bg-slate-50 p-4 rounded-2xl border border-slate-200">
                         <div class="text-xs text-slate-500 font-medium">อายุรถ</div>
@@ -186,7 +192,7 @@
                 <!-- Update PRB & Tax Form -->
                 <div class="bg-indigo-50/50 p-4 rounded-2xl border border-indigo-100 space-y-3">
                     <h4 class="font-bold text-indigo-900 text-xs flex items-center"><i class="fa-solid fa-file-shield text-indigo-600 mr-1.5"></i> ตั้งค่า / อัปเดตวันหมดอายุ พ.ร.บ. และภาษี</h4>
-                    <form onsubmit="handleUpdateVehiclePrbTax(event)" class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
+                    <form onsubmit="window.handleUpdateVehiclePrbTax(event)" class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs">
                         <input type="hidden" id="modalVehId">
                         <div>
                             <label class="block font-semibold text-slate-600 mb-1">วันหมดอายุ พ.ร.บ.</label>
@@ -205,11 +211,11 @@
                 <!-- Add Expense for this Vehicle -->
                 <div class="bg-rose-50/50 p-4 rounded-2xl border border-rose-100 space-y-3">
                     <h4 class="font-bold text-rose-900 text-xs flex items-center"><i class="fa-solid fa-wrench text-rose-600 mr-1.5"></i> บันทึกค่าใช้จ่าย / ค่าซ่อมบำรุงรถคันนี้</h4>
-                    <form onsubmit="handleAddVehicleExpenseModal(event)" class="space-y-3 text-xs">
+                    <form onsubmit="window.handleAddVehicleExpenseModal(event)" class="space-y-3 text-xs">
                         <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
                             <div>
                                 <label class="block font-semibold text-slate-600 mb-1">รายการค่าใช้จ่าย *</label>
-                                <input type="text" id="modalVehExpDesc" required placeholder="เช่น เปลี่ยนยาง, เปลี่ยนถ่ายน้ำมันเครื่อง, ต่อ พ.ร.บ." class="w-full px-3 py-2 bg-white border border-slate-200 rounded-xl">
+                                <input type="text" id="modalVehExpDesc" required placeholder="เช่น เปลี่ยนยาง, ค่าซ่อมบำรุง" class="w-full px-3 py-2 bg-white border border-slate-200 rounded-xl">
                             </div>
                             <div>
                                 <label class="block font-semibold text-slate-600 mb-1">จำนวนเงิน (บาท) *</label>
@@ -246,7 +252,7 @@
                 </div>
             </div>
             <div class="p-4 bg-slate-50 border-t border-slate-100 text-right">
-                <button onclick="closeVehicleDetailModal()" class="px-6 py-2 bg-slate-200 hover:bg-slate-300 text-slate-700 rounded-xl text-xs font-semibold transition">ปิดหน้าต่าง</button>
+                <button onclick="window.closeVehicleDetailModal()" class="px-6 py-2 bg-slate-200 hover:bg-slate-300 text-slate-700 rounded-xl text-xs font-semibold transition">ปิดหน้าต่าง</button>
             </div>
         </div>
     </div>
@@ -264,27 +270,27 @@
                         <div class="absolute inset-0 bg-black/40 rounded-2xl flex items-center justify-center opacity-0 group-hover:opacity-100 transition text-white text-xs">
                             <i class="fa-solid fa-camera"></i>
                         </div>
-                        <input type="file" id="profileImageInput" accept="image/*" class="hidden" onchange="handleProfileImageUpload(event)">
+                        <input type="file" id="profileImageInput" accept="image/*" class="hidden" onchange="window.handleProfileImageUpload(event)">
                     </div>
                     <div>
                         <div class="flex items-center space-x-2">
-                            <h1 id="headerTrackerTitle" class="text-xl font-bold cursor-pointer hover:opacity-80" onclick="openTrackerNameModal()" title="คลิกเพื่อเปลี่ยนชื่อทะเบียน">ทะเบียนคุมค่าใช้จ่าย</h1>
-                            <button onclick="openTrackerNameModal()" class="text-xs bg-white/20 hover:bg-white/30 px-2 py-0.5 rounded-lg transition"><i class="fa-solid fa-pen text-[10px]"></i></button>
+                            <h1 id="headerTrackerTitle" class="text-xl font-bold cursor-pointer hover:opacity-80" onclick="window.openTrackerNameModal()" title="คลิกเพื่อเปลี่ยนชื่อทะเบียน">ทะเบียนคุมค่าใช้จ่าย</h1>
+                            <button onclick="window.openTrackerNameModal()" class="text-xs bg-white/20 hover:bg-white/30 px-2 py-0.5 rounded-lg transition"><i class="fa-solid fa-pen text-[10px]"></i></button>
                         </div>
                         <p id="userEmailDisplay" class="text-xs text-indigo-100">กำลังซิงค์ข้อมูล...</p>
                     </div>
                 </div>
                 <!-- Mobile Logout & Guide Buttons -->
                 <div class="flex items-center space-x-2 md:hidden">
-                    <button onclick="openGuideModal()" class="text-xs bg-white/20 hover:bg-white/30 px-2.5 py-1.5 rounded-xl"><i class="fa-solid fa-book-open"></i></button>
-                    <button onclick="logoutUser()" class="text-xs bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-xl">ออก</button>
+                    <button onclick="window.openGuideModal()" class="text-xs bg-white/20 hover:bg-white/30 px-2.5 py-1.5 rounded-xl"><i class="fa-solid fa-book-open"></i></button>
+                    <button onclick="window.logoutUser()" class="text-xs bg-white/10 hover:bg-white/20 px-3 py-1.5 rounded-xl">ออก</button>
                 </div>
             </div>
 
             <!-- Theme Selector Dropdown with Color Dots -->
             <div class="flex items-center space-x-2 bg-white/10 px-3 py-1.5 rounded-2xl backdrop-blur-sm border border-white/20">
                 <span class="text-xs font-semibold whitespace-nowrap"><i class="fa-solid fa-palette mr-1"></i> ธีม:</span>
-                <select id="themeSelector" onchange="changeTheme(this.value)" class="bg-black/25 text-white text-xs font-medium rounded-xl px-2.5 py-1.5 border border-white/20 focus:outline-none cursor-pointer">
+                <select id="themeSelector" onchange="window.changeTheme(this.value)" class="bg-black/25 text-white text-xs font-medium rounded-xl px-2.5 py-1.5 border border-white/20 focus:outline-none cursor-pointer">
                     <option value="modern-indigo" class="text-slate-800">🔵 โมเดิร์นอินดิโก้</option>
                     <option value="pastel-pink" class="text-slate-800">🌸 พาสเทลชมพูหวาน</option>
                     <option value="nature-green" class="text-slate-800">🟢 เนเจอร์กรีน</option>
@@ -294,31 +300,31 @@
                     <option value="royal-purple" class="text-slate-800">🍇 รอยัลม่วงพรีเมียม</option>
                     <option value="minimal-clean" class="text-slate-800">⚪ มินิมอลคลีน</option>
                 </select>
-                <button onclick="openGuideModal()" class="hidden md:inline-block text-xs bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-xl transition ml-1" title="คู่มือการใช้งาน"><i class="fa-solid fa-book-open mr-1"></i> คู่มือ</button>
-                <button onclick="logoutUser()" class="hidden md:inline-block text-xs bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-xl transition ml-1">ออกจากระบบ</button>
+                <button onclick="window.openGuideModal()" class="hidden md:inline-block text-xs bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-xl transition ml-1" title="คู่มือการใช้งาน"><i class="fa-solid fa-book-open mr-1"></i> คู่มือ</button>
+                <button onclick="window.logoutUser()" class="hidden md:inline-block text-xs bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-xl transition ml-1">ออกจากระบบ</button>
             </div>
 
             <!-- Navigation Tabs -->
             <nav class="flex space-x-1 bg-white/10 p-1 rounded-2xl backdrop-blur-sm overflow-x-auto max-w-full">
-                <button onclick="switchTab('dashboard')" id="btn-dashboard" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn bg-white text-indigo-600 shadow-sm whitespace-nowrap">
+                <button onclick="window.switchTab('dashboard')" id="btn-dashboard" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn bg-white text-indigo-600 shadow-sm whitespace-nowrap">
                     <i class="fa-solid fa-chart-pie mr-1"></i> แดชบอร์ด
                 </button>
-                <button onclick="switchTab('income')" id="btn-income" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
+                <button onclick="window.switchTab('income')" id="btn-income" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
                     <i class="fa-solid fa-circle-plus mr-1"></i> ลงรายรับ
                 </button>
-                <button onclick="switchTab('expense')" id="btn-expense" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
+                <button onclick="window.switchTab('expense')" id="btn-expense" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
                     <i class="fa-solid fa-circle-minus mr-1"></i> ลงรายจ่าย
                 </button>
-                <button onclick="switchTab('cards')" id="btn-cards" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
+                <button onclick="window.switchTab('cards')" id="btn-cards" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
                     <i class="fa-solid fa-credit-card mr-1"></i> วงเงินสินเชื่อ
                 </button>
-                <button onclick="switchTab('vehicle')" id="btn-vehicle" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
+                <button onclick="window.switchTab('vehicle')" id="btn-vehicle" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
                     <i class="fa-solid fa-car mr-1"></i> ข้อมูลรถ
                 </button>
-                <button onclick="switchTab('calendar')" id="btn-calendar" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
+                <button onclick="window.switchTab('calendar')" id="btn-calendar" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
                     <i class="fa-solid fa-calendar-days mr-1"></i> ปฏิทิน
                 </button>
-                <button onclick="switchTab('history')" id="btn-history" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
+                <button onclick="window.switchTab('history')" id="btn-history" class="px-3.5 py-2 rounded-xl text-sm font-medium transition tab-btn text-white hover:bg-white/10 whitespace-nowrap">
                     <i class="fa-solid fa-list-ul mr-1"></i> ประวัติ
                 </button>
             </nav>
@@ -331,8 +337,8 @@
             <h3 class="text-lg font-bold text-slate-800">ตั้งชื่อทะเบียนคุมค่าใช้จ่าย</h3>
             <input type="text" id="customTrackerNameInput" placeholder="เช่น ทะเบียนคุมของฉัน" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
             <div class="flex space-x-2">
-                <button onclick="closeTrackerNameModal()" class="w-1/2 py-2 bg-slate-100 text-slate-700 rounded-xl font-medium text-sm">ยกเลิก</button>
-                <button onclick="saveTrackerName()" class="w-1/2 py-2 bg-indigo-600 text-white rounded-xl font-medium text-sm">บันทึก</button>
+                <button onclick="window.closeTrackerNameModal()" class="w-1/2 py-2 bg-slate-100 text-slate-700 rounded-xl font-medium text-sm">ยกเลิก</button>
+                <button onclick="window.saveTrackerName()" class="w-1/2 py-2 bg-indigo-600 text-white rounded-xl font-medium text-sm">บันทึก</button>
             </div>
         </div>
     </div>
@@ -346,7 +352,7 @@
             <div class="bg-white p-4 rounded-2xl shadow-sm border border-slate-100 flex flex-wrap items-center justify-between gap-4">
                 <div class="flex items-center space-x-2">
                     <span class="text-sm font-semibold text-slate-700"><i class="fa-solid fa-filter text-indigo-600 mr-1" id="filterIconTheme"></i> มุมมองสรุป:</span>
-                    <select id="dashboardPeriod" onchange="updateDashboard()" class="bg-slate-50 border border-slate-200 rounded-xl px-3 py-1.5 text-sm font-medium focus:outline-none focus:border-indigo-500">
+                    <select id="dashboardPeriod" onchange="window.updateDashboard()" class="bg-slate-50 border border-slate-200 rounded-xl px-3 py-1.5 text-sm font-medium focus:outline-none focus:border-indigo-500">
                         <option value="week">สัปดาห์นี้</option>
                         <option value="month" selected>เดือนนี้</option>
                         <option value="year">ปีนี้</option>
@@ -354,7 +360,7 @@
                     </select>
                 </div>
                 <div class="flex items-center space-x-3">
-                    <button onclick="switchTab('calendar')" class="px-4 py-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-xl text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm">
+                    <button onclick="window.switchTab('calendar')" class="px-4 py-2 bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-xl text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm">
                         <i class="fa-solid fa-calendar-days"></i>
                         <span>เปิดปฏิทินการเงิน</span>
                     </button>
@@ -429,7 +435,7 @@
                     <h3 class="text-base font-bold text-slate-800 flex items-center">
                         <i class="fa-solid fa-car text-indigo-600 mr-2" id="dashVehicleIconTheme"></i> ข้อมูลรถ และการต่อ พ.ร.บ.
                     </h3>
-                    <button onclick="switchTab('vehicle')" class="text-xs text-indigo-600 hover:underline font-semibold">ดูทั้งหมด / จัดการ <i class="fa-solid fa-arrow-right ml-1"></i></button>
+                    <button onclick="window.switchTab('vehicle')" class="text-xs text-indigo-600 hover:underline font-semibold">ดูทั้งหมด / จัดการ <i class="fa-solid fa-arrow-right ml-1"></i></button>
                 </div>
                 <div id="dashVehicleSummary" class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <!-- Populated by JS -->
@@ -452,14 +458,14 @@
                             <span class="absolute inset-y-0 left-0 pl-2.5 flex items-center text-slate-400 text-xs">
                                 <i class="fa-solid fa-magnifying-glass"></i>
                             </span>
-                            <input type="text" id="dashSearchKeyword" oninput="updateDashboard()" placeholder="ค้นหาที่มา / รายละเอียด..." class="pl-8 pr-3 py-1.5 bg-slate-50 border border-slate-200 rounded-xl text-xs focus:outline-none focus:border-indigo-500 w-44">
+                            <input type="text" id="dashSearchKeyword" oninput="window.updateDashboard()" placeholder="ค้นหาที่มา / รายละเอียด..." class="pl-8 pr-3 py-1.5 bg-slate-50 border border-slate-200 rounded-xl text-xs focus:outline-none focus:border-indigo-500 w-44">
                         </div>
-                        <select id="dashFilterType" onchange="updateDashboard()" class="bg-slate-50 border border-slate-200 rounded-xl px-3 py-1.5 text-xs font-medium focus:outline-none focus:border-indigo-500">
+                        <select id="dashFilterType" onchange="window.updateDashboard()" class="bg-slate-50 border border-slate-200 rounded-xl px-3 py-1.5 text-xs font-medium focus:outline-none focus:border-indigo-500">
                             <option value="all">ทั้งหมด (รับ/จ่าย)</option>
                             <option value="income">เฉพาะรายรับ</option>
                             <option value="expense">เฉพาะรายจ่าย</option>
                         </select>
-                        <select id="dashFilterDateRange" onchange="toggleDashCustomDate(this.value)" class="bg-slate-50 border border-slate-200 rounded-xl px-3 py-1.5 text-xs font-medium focus:outline-none focus:border-indigo-500">
+                        <select id="dashFilterDateRange" onchange="window.toggleDashCustomDate(this.value)" class="bg-slate-50 border border-slate-200 rounded-xl px-3 py-1.5 text-xs font-medium focus:outline-none focus:border-indigo-500">
                             <option value="all">ทุกช่วงเวลา</option>
                             <option value="month" selected>เดือนปัจจุบัน</option>
                             <option value="custom">กำหนดช่วงวัน</option>
@@ -471,11 +477,11 @@
                 <div id="dashCustomDateContainer" class="hidden bg-slate-50 p-3 rounded-xl border border-slate-200 flex flex-wrap items-center gap-3 text-xs">
                     <div class="flex items-center space-x-1">
                         <span class="font-semibold text-slate-600">ตั้งแต่วันที่:</span>
-                        <input type="date" id="dashStartDate" onchange="updateDashboard()" class="bg-white border border-slate-200 rounded-lg px-2.5 py-1 text-xs">
+                        <input type="date" id="dashStartDate" onchange="window.updateDashboard()" class="bg-white border border-slate-200 rounded-lg px-2.5 py-1 text-xs">
                     </div>
                     <div class="flex items-center space-x-1">
                         <span class="font-semibold text-slate-600">ถึงวันที่:</span>
-                        <input type="date" id="dashEndDate" onchange="updateDashboard()" class="bg-white border border-slate-200 rounded-lg px-2.5 py-1 text-xs">
+                        <input type="date" id="dashEndDate" onchange="window.updateDashboard()" class="bg-white border border-slate-200 rounded-lg px-2.5 py-1 text-xs">
                     </div>
                 </div>
 
@@ -514,7 +520,7 @@
                     </div>
                 </div>
 
-                <form id="incomeForm" onsubmit="handleIncomeSubmit(event)" class="space-y-4">
+                <form id="incomeForm" onsubmit="window.handleIncomeSubmit(event)" class="space-y-4">
                     <div>
                         <label class="block text-xs font-semibold text-slate-600 mb-1.5">จำนวนเงิน (บาท) *</label>
                         <div class="relative">
@@ -526,16 +532,16 @@
                     <div>
                         <div class="flex justify-between items-center mb-1.5">
                             <label class="block text-xs font-semibold text-slate-600">ที่มาของเงิน *</label>
-                            <button type="button" onclick="openManageSourcesModal('income')" class="text-[11px] text-indigo-600 hover:underline"><i class="fa-solid fa-gear mr-1"></i> จัดการรายการที่เพิ่มเอง</button>
+                            <button type="button" onclick="window.openManageSourcesModal('income')" class="text-[11px] text-indigo-600 hover:underline"><i class="fa-solid fa-gear mr-1"></i> จัดการรายการที่เพิ่มเอง</button>
                         </div>
-                        <select id="incomeSourceSelect" onchange="checkOtherIncomeSource(this)" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
+                        <select id="incomeSourceSelect" onchange="window.checkOtherIncomeSource(this)" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
                             <!-- Populated dynamically -->
                         </select>
                     </div>
 
                     <div id="incomeOtherContainer" class="hidden">
-                        <label class="block text-xs font-semibold text-slate-600 mb-1.5">ระบุที่มาของเงิน (อื่นๆ)</label>
-                        <input type="text" id="incomeSourceOther" placeholder="ระบุที่มาของเงิน..." class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
+                        <label class="block text-xs font-semibold text-slate-600 mb-1.5">ระบุที่มาของเงิน (อื่นๆ) *</label>
+                        <input type="text" id="incomeSourceOther" placeholder="พิมพ์ระบุที่มาของเงิน..." class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
                     </div>
 
                     <div>
@@ -549,17 +555,17 @@
                             <label class="cursor-pointer py-2.5 px-4 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 rounded-xl text-xs font-semibold text-center transition flex items-center justify-center space-x-1.5">
                                 <i class="fa-solid fa-camera"></i>
                                 <span>ถ่ายรูป (เปิดกล้อง)</span>
-                                <input type="file" id="incomeCameraInput" accept="image/*" capture="environment" class="hidden" onchange="handleImageCapture(event, 'income')">
+                                <input type="file" id="incomeCameraInput" accept="image/*" capture="environment" class="hidden" onchange="window.handleImageCapture(event, 'income')">
                             </label>
                             <label class="cursor-pointer py-2.5 px-4 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold text-center transition flex items-center justify-center space-x-1.5">
                                 <i class="fa-solid fa-image"></i>
                                 <span>เลือกจากเครื่อง</span>
-                                <input type="file" id="incomeFileInput" accept="image/*" class="hidden" onchange="handleImageCapture(event, 'income')">
+                                <input type="file" id="incomeFileInput" accept="image/*" class="hidden" onchange="window.handleImageCapture(event, 'income')">
                             </label>
                         </div>
                         <div id="incomeImagePreview" class="mt-2 hidden relative w-fit">
                             <img id="incomePreviewTag" src="" alt="Preview" class="w-24 h-24 object-cover rounded-xl border border-slate-200">
-                            <button type="button" onclick="clearImage('income')" class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-rose-600 text-white text-xs flex items-center justify-center shadow-md hover:bg-rose-700"><i class="fa-solid fa-xmark"></i></button>
+                            <button type="button" onclick="window.clearImage('income')" class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-rose-600 text-white text-xs flex items-center justify-center shadow-md hover:bg-rose-700"><i class="fa-solid fa-xmark"></i></button>
                         </div>
                     </div>
 
@@ -584,7 +590,7 @@
                     </div>
                 </div>
 
-                <form id="expenseForm" onsubmit="handleExpenseSubmit(event)" class="space-y-4">
+                <form id="expenseForm" onsubmit="window.handleExpenseSubmit(event)" class="space-y-4">
                     <div>
                         <label class="block text-xs font-semibold text-slate-600 mb-1.5">จำนวนเงิน (บาท) *</label>
                         <div class="relative">
@@ -596,22 +602,22 @@
                     <div>
                         <div class="flex justify-between items-center mb-1.5">
                             <label class="block text-xs font-semibold text-slate-600">ที่มาของค่าใช้จ่าย *</label>
-                            <button type="button" onclick="openManageSourcesModal('expense')" class="text-[11px] text-indigo-600 hover:underline"><i class="fa-solid fa-gear mr-1"></i> จัดการรายการที่เพิ่มเอง</button>
+                            <button type="button" onclick="window.openManageSourcesModal('expense')" class="text-[11px] text-indigo-600 hover:underline"><i class="fa-solid fa-gear mr-1"></i> จัดการรายการที่เพิ่มเอง</button>
                         </div>
-                        <select id="expenseSourceSelect" onchange="checkOtherExpenseSource(this)" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500"> 
+                        <select id="expenseSourceSelect" onchange="window.checkOtherExpenseSource(this)" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500"> 
                             <!-- Populated dynamically -->
                         </select>
                     </div>
 
                     <div id="expenseOtherContainer" class="hidden">
-                        <label class="block text-xs font-semibold text-slate-600 mb-1.5">ระบุที่มาค่าใช้จ่าย (อื่นๆ)</label>
-                        <input type="text" id="expenseSourceOther" placeholder="ระบุรายการ..." class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
+                        <label class="block text-xs font-semibold text-slate-600 mb-1.5">ระบุที่มาค่าใช้จ่าย (อื่นๆ) *</label>
+                        <input type="text" id="expenseSourceOther" placeholder="พิมพ์ระบุรายการ..." class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
                     </div>
 
                     <!-- Payment Method Option -->
                     <div>
                         <label class="block text-xs font-semibold text-slate-600 mb-1.5">ช่องทางการจ่ายเงิน *</label>
-                        <select id="expensePayMethod" onchange="toggleExpenseCardSelection(this)" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
+                        <select id="expensePayMethod" onchange="window.toggleExpenseCardSelection(this)" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
                             <option value="cash">เงินสด / เงินโอนทั่วไป</option>
                             <option value="card">หักจากวงเงินสินเชื่อ / บัตร</option>
                         </select>
@@ -635,17 +641,17 @@
                             <label class="cursor-pointer py-2.5 px-4 bg-rose-50 hover:bg-rose-100 text-rose-700 rounded-xl text-xs font-semibold text-center transition flex items-center justify-center space-x-1.5">
                                 <i class="fa-solid fa-camera"></i>
                                 <span>ถ่ายรูป (เปิดกล้อง)</span>
-                                <input type="file" id="expenseCameraInput" accept="image/*" capture="environment" class="hidden" onchange="handleImageCapture(event, 'expense')">
+                                <input type="file" id="expenseCameraInput" accept="image/*" capture="environment" class="hidden" onchange="window.handleImageCapture(event, 'expense')">
                             </label>
                             <label class="cursor-pointer py-2.5 px-4 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold text-center transition flex items-center justify-center space-x-1.5">
                                 <i class="fa-solid fa-image"></i>
                                 <span>เลือกจากเครื่อง</span>
-                                <input type="file" id="expenseFileInput" accept="image/*" class="hidden" onchange="handleImageCapture(event, 'expense')">
+                                <input type="file" id="expenseFileInput" accept="image/*" class="hidden" onchange="window.handleImageCapture(event, 'expense')">
                             </label>
                         </div>
                         <div id="expenseImagePreview" class="mt-2 hidden relative w-fit">
                             <img id="expensePreviewTag" src="" alt="Preview" class="w-24 h-24 object-cover rounded-xl border border-slate-200">
-                            <button type="button" onclick="clearImage('expense')" class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-rose-600 text-white text-xs flex items-center justify-center shadow-md hover:bg-rose-700"><i class="fa-solid fa-xmark"></i></button>
+                            <button type="button" onclick="window.clearImage('expense')" class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-rose-600 text-white text-xs flex items-center justify-center shadow-md hover:bg-rose-700"><i class="fa-solid fa-xmark"></i></button>
                         </div>
                     </div>
 
@@ -663,12 +669,12 @@
                 <!-- Add New Credit Line Form -->
                 <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 h-fit">
                     <h2 class="text-base font-bold text-slate-800 mb-4 flex items-center">
-                        <i class="fa-solid fa-credit-card text-indigo-600 mr-2" id="cardFormIconTheme"></i> เพิ่มวงเงินสินเชื่อ / บัตร (เช่น TrueMoney, Shopee, KBank)
+                        <i class="fa-solid fa-credit-card text-indigo-600 mr-2" id="cardFormIconTheme"></i> เพิ่มวงเงินสินเชื่อ / บัตร (เช่น TrueMoney, Shopee)
                     </h2>
-                    <form id="cardForm" onsubmit="handleCardSubmit(event)" class="space-y-4">
+                    <form id="cardForm" onsubmit="window.handleCardSubmit(event)" class="space-y-4">
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 mb-1.5">ชื่อวงเงินสินเชื่อ / บัตร *</label>
-                            <input type="text" id="cardName" required placeholder="เช่น TrueMoney, บัตร KBank, Shopee PayLater" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
+                            <input type="text" id="cardName" required placeholder="เช่น TrueMoney, Shopee PayLater" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 mb-1.5">วงเงินทั้งหมด (บาท) *</label>
@@ -701,7 +707,7 @@
                 <div class="bg-white rounded-2xl p-6 max-w-md w-full mx-4 shadow-xl">
                     <h3 id="cardActionTitle" class="text-lg font-bold text-slate-800 mb-2">จัดการยอดวงเงิน</h3>
                     <p id="cardActionSubtitle" class="text-xs text-slate-500 mb-4">รายการ: ...</p>
-                    <form id="cardActionForm" onsubmit="handleCardActionSubmit(event)" class="space-y-4">
+                    <form id="cardActionForm" onsubmit="window.handleCardActionSubmit(event)" class="space-y-4">
                         <input type="hidden" id="actionCardId">
                         <input type="hidden" id="actionType">
                         <div>
@@ -712,7 +718,7 @@
                             </div>
                         </div>
                         <div class="flex space-x-3 pt-2">
-                            <button type="button" onclick="closeCardActionModal()" class="w-1/2 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-medium transition">ยกเลิก</button>
+                            <button type="button" onclick="window.closeCardActionModal()" class="w-1/2 py-2.5 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl font-medium transition">ยกเลิก</button>
                             <button type="submit" id="actionSubmitBtn" class="w-1/2 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-xl font-medium transition">ยืนยัน</button>
                         </div>
                     </form>
@@ -728,14 +734,14 @@
                     <h2 class="text-base font-bold text-slate-800 mb-4 flex items-center">
                         <i class="fa-solid fa-car-side text-indigo-600 mr-2" id="vehicleFormIconTheme"></i> เพิ่มข้อมูลรถ
                     </h2>
-                    <form id="vehicleForm" onsubmit="handleVehicleSubmit(event)" class="space-y-4">
+                    <form id="vehicleForm" onsubmit="window.handleVehicleSubmit(event)" class="space-y-4">
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 mb-1.5">ชื่อรถ *</label>
                             <input type="text" id="vehicleName" required placeholder="เช่น Honda Civic" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 mb-1.5">ป้ายทะเบียน *</label>
-                            <input type="text" id="vehiclePlate" required placeholder="เช่น กก 1234 กรุงเทพมหานคร" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
+                            <input type="text" id="vehiclePlate" required placeholder="เช่น กก 1234 กรุงเทพฯ" class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
                         </div>
                         <div>
                             <label class="block text-xs font-semibold text-slate-600 mb-1.5">วันที่ซื้อรถ (เพื่อคำนวณอายุรถ) *</label>
@@ -747,17 +753,17 @@
                                 <label class="cursor-pointer py-2.5 px-3 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 rounded-xl text-xs font-semibold text-center transition flex items-center justify-center space-x-1.5">
                                     <i class="fa-solid fa-camera"></i>
                                     <span>ถ่ายรูป</span>
-                                    <input type="file" id="vehCameraInput" accept="image/*" capture="environment" class="hidden" onchange="handleVehImageCapture(event)">
+                                    <input type="file" id="vehCameraInput" accept="image/*" capture="environment" class="hidden" onchange="window.handleVehImageCapture(event)">
                                 </label>
                                 <label class="cursor-pointer py-2.5 px-3 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold text-center transition flex items-center justify-center space-x-1.5">
                                     <i class="fa-solid fa-image"></i>
                                     <span>เลือกรูป</span>
-                                    <input type="file" id="vehFileInput" accept="image/*" class="hidden" onchange="handleVehImageCapture(event)">
+                                    <input type="file" id="vehFileInput" accept="image/*" class="hidden" onchange="window.handleVehImageCapture(event)">
                                 </label>
                             </div>
                             <div id="vehImagePreview" class="mt-2 hidden relative w-fit">
                                 <img id="vehPreviewTag" src="" alt="Car Preview" class="w-24 h-24 object-cover rounded-xl border border-slate-200">
-                                <button type="button" onclick="clearVehImage()" class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-rose-600 text-white text-xs flex items-center justify-center shadow-md hover:bg-rose-700"><i class="fa-solid fa-xmark"></i></button>
+                                <button type="button" onclick="window.clearVehImage()" class="absolute -top-2 -right-2 w-6 h-6 rounded-full bg-rose-600 text-white text-xs flex items-center justify-center shadow-md hover:bg-rose-700"><i class="fa-solid fa-xmark"></i></button>
                             </div>
                         </div>
                         <button type="submit" id="vehicleAddBtnTheme" class="w-full py-3 bg-indigo-600 hover:bg-indigo-700 text-white font-semibold rounded-xl transition shadow-sm shadow-indigo-200 flex items-center justify-center space-x-2">
@@ -788,17 +794,17 @@
                     <div class="flex items-center space-x-3">
                         <h2 id="calendarMonthTitle" class="text-xl font-bold text-slate-800">ตุลาคม 2569</h2>
                         <div class="flex space-x-1">
-                            <button onclick="changeCalendarMonth(-1)" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition"><i class="fa-solid fa-chevron-left"></i></button>
-                            <button onclick="changeCalendarMonth(0)" class="px-3 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold transition">เดือนนี้</button>
-                            <button onclick="changeCalendarMonth(1)" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition"><i class="fa-solid fa-chevron-right"></i></button>
+                            <button onclick="window.changeCalendarMonth(-1)" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition"><i class="fa-solid fa-chevron-left"></i></button>
+                            <button onclick="window.changeCalendarMonth(0)" class="px-3 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold transition">เดือนนี้</button>
+                            <button onclick="window.changeCalendarMonth(1)" class="w-9 h-9 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 flex items-center justify-center transition"><i class="fa-solid fa-chevron-right"></i></button>
                         </div>
                     </div>
                     <div class="flex items-center space-x-2">
-                        <button onclick="openCalendarNoteModal()" class="px-4 py-2.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-xl text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm">
+                        <button onclick="window.openCalendarNoteModal()" class="px-4 py-2.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-600 rounded-xl text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm">
                             <i class="fa-solid fa-plus"></i>
                             <span>เพิ่มบันทึก / แจ้งเตือน</span>
                         </button>
-                        <button onclick="syncAllToGoogleCalendar()" class="px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm">
+                        <button onclick="window.syncAllToGoogleCalendar()" class="px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-xl text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm">
                             <i class="fa-brands fa-google"></i>
                             <span>ซิงค์ Google Calendar</span>
                         </button>
@@ -827,9 +833,9 @@
         <div id="calendarNoteModal" class="fixed inset-0 bg-black/50 z-50 flex items-center justify-center hidden">
             <div class="bg-white rounded-2xl p-6 max-w-sm w-full mx-4 shadow-xl space-y-4">
                 <h3 class="text-lg font-bold text-slate-800">เพิ่มบันทึก / แจ้งเตือนในปฏิทิน</h3>
-                <form id="calendarNoteForm" onsubmit="handleCalendarNoteSubmit(event)" class="space-y-4">
+                <form id="calendarNoteForm" onsubmit="window.handleCalendarNoteSubmit(event)" class="space-y-4">
                     <div>
-                        <label class="block text-xs font-semibold text-slate-600 mb-1.5">หัวข้อ / โน้ต (เช่น วันเกิด, นัดหมาย) *</label>
+                        <label class="block text-xs font-semibold text-slate-600 mb-1.5">หัวข้อ / โน้ต *</label>
                         <input type="text" id="calendarNoteText" required placeholder="ระบุข้อความ..." class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
                     </div>
                     <div>
@@ -837,7 +843,7 @@
                         <input type="date" id="calendarNoteDate" required class="w-full px-4 py-2.5 bg-slate-50 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-indigo-500">
                     </div>
                     <div class="flex space-x-2 pt-2">
-                        <button type="button" onclick="closeCalendarNoteModal()" class="w-1/2 py-2.5 bg-slate-100 text-slate-700 rounded-xl font-medium text-xs">ยกเลิก</button>
+                        <button type="button" onclick="window.closeCalendarNoteModal()" class="w-1/2 py-2.5 bg-slate-100 text-slate-700 rounded-xl font-medium text-xs">ยกเลิก</button>
                         <button type="submit" class="w-1/2 py-2.5 bg-indigo-600 text-white rounded-xl font-medium text-xs">บันทึก</button>
                     </div>
                 </form>
@@ -853,12 +859,12 @@
                         <p class="text-xs text-slate-500">รายการรายรับและรายจ่ายที่คุณบันทึกไว้ในระบบ</p>
                     </div>
                     <div class="flex flex-wrap items-center gap-3">
-                        <select id="historyFilter" onchange="renderHistory()" class="bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2 text-xs font-semibold focus:outline-none focus:border-indigo-500">
+                        <select id="historyFilter" onchange="window.renderHistory()" class="bg-slate-50 border border-slate-200 rounded-xl px-3.5 py-2 text-xs font-semibold focus:outline-none focus:border-indigo-500">
                             <option value="all">ทั้งหมด (รับ/จ่าย)</option>
                             <option value="income">เฉพาะรายรับ</option>
                             <option value="expense">เฉพาะรายจ่าย</option>
                         </select>
-                        <button onclick="clearAllData()" class="px-4 py-2 bg-rose-50 hover:bg-rose-100 text-rose-600 rounded-xl text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm">
+                        <button onclick="window.clearAllData()" class="px-4 py-2 bg-rose-50 hover:bg-rose-100 text-rose-600 rounded-xl text-xs font-semibold transition flex items-center space-x-1.5 shadow-sm">
                             <i class="fa-solid fa-trash-can"></i>
                             <span>ล้างข้อมูลทั้งหมด</span>
                         </button>
@@ -915,7 +921,6 @@
         let unsubscribeDoc = null;
         let currentCalendarDate = new Date();
 
-        // Default Empty App State Structure for First-Time Logins (No Pre-populated Data)
         let appData = {
             trackerName: "ทะเบียนคุมค่าใช้จ่ายส่วนตัว",
             transactions: [],
@@ -965,9 +970,18 @@
             }
         };
 
+        window.loginAnonymously = async function() {
+            try {
+                const anonResult = await signInAnonymously(auth);
+                currentUser = anonResult.user;
+            } catch (e) {
+                window.showModal("แจ้งเตือน", "ไม่สามารถเข้าสู่ระบบแบบส่วนตัวได้ กรุณาลองใหม่อีกครั้ง", false);
+            }
+        };
+
         window.logoutUser = async function() {
             await signOut(auth);
-            document.getElementById('authScreen').classList.add('hidden');
+            document.getElementById('authScreen').classList.remove('hidden');
         };
 
         onAuthStateChanged(auth, async (user) => {
@@ -991,7 +1005,7 @@
                     await signInAnonymously(auth);
                 }
             } catch (e) {
-                console.log("Auth init notice:", e);
+                console.log("Auth init notice, falling back to manual login:", e);
             }
         });
 
@@ -1010,7 +1024,6 @@
                         if (!appData.calendarNotes) appData.calendarNotes = [];
                     }
                 } else {
-                    // First time login: completely empty state
                     setDoc(docRef, { appData });
                 }
                 applyTheme(appData.currentTheme || 'modern-indigo');
@@ -1098,7 +1111,7 @@
                 appData.trackerName = name;
                 updateTrackerTitleDisplay();
                 window.saveDataToCloud();
-                closeTrackerNameModal();
+                window.closeTrackerNameModal();
                 window.showModal("สำเร็จ", "เปลี่ยนชื่อทะเบียนคุมเรียบร้อยแล้วค่ะ");
             }
         };
@@ -1264,7 +1277,6 @@
                 const currentVal = incomeSelect.value;
                 incomeSelect.innerHTML = `
                     <option value="เงินเดือน">เงินเดือน</option>
-                    <option value="ฉ11">ฉ11</option>
                 `;
                 if (appData.customIncomeSources) {
                     appData.customIncomeSources.forEach((src) => {
@@ -1279,6 +1291,7 @@
                 otherOpt.textContent = 'อื่นๆ (พิมพ์เอง)';
                 incomeSelect.appendChild(otherOpt);
                 incomeSelect.value = currentVal || 'เงินเดือน';
+                window.checkOtherIncomeSource(incomeSelect);
             }
 
             if (expenseSelect) {
@@ -1299,6 +1312,7 @@
                 otherOpt.textContent = 'อื่นๆ (พิมพ์เอง)';
                 expenseSelect.appendChild(otherOpt);
                 expenseSelect.value = currentVal || 'ค่าอาหาร';
+                window.checkOtherExpenseSource(expenseSelect);
             }
         }
 
@@ -1306,6 +1320,8 @@
             const modal = document.getElementById('manageSourcesModal');
             const title = document.getElementById('manageSourcesTitle');
             const listContainer = document.getElementById('customSourcesList');
+            document.getElementById('manageModalSourceType').value = type;
+            document.getElementById('newCustomSourceInput').value = '';
             
             title.innerText = type === 'income' ? 'จัดการที่มาของรายรับที่เพิ่มเอง' : 'จัดการที่มาของรายจ่ายที่เพิ่มเอง';
             listContainer.innerHTML = '';
@@ -1319,12 +1335,36 @@
                     row.className = "flex justify-between items-center bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs";
                     row.innerHTML = `
                         <span class="font-medium text-slate-700">${src}</span>
-                        <button type="button" onclick="deleteCustomSource('${type}', ${index})" class="text-slate-400 hover:text-rose-600 px-2 py-1 rounded-lg transition"><i class="fa-solid fa-trash"></i></button>
+                        <button type="button" onclick="window.deleteCustomSource('${type}', ${index})" class="text-slate-400 hover:text-rose-600 px-2 py-1 rounded-lg transition"><i class="fa-solid fa-trash"></i></button>
                     `;
                     listContainer.appendChild(row);
                 });
             }
             modal.classList.remove('hidden');
+        };
+
+        window.handleAddNewCustomSourceModal = function(e) {
+            e.preventDefault();
+            const type = document.getElementById('manageModalSourceType').value;
+            const inputVal = document.getElementById('newCustomSourceInput').value.trim();
+            if (!inputVal) return;
+
+            if (type === 'income') {
+                if (!appData.customIncomeSources) appData.customIncomeSources = [];
+                if (!appData.customIncomeSources.includes(inputVal)) {
+                    appData.customIncomeSources.push(inputVal);
+                }
+            } else {
+                if (!appData.customExpenseSources) appData.customExpenseSources = [];
+                if (!appData.customExpenseSources.includes(inputVal)) {
+                    appData.customExpenseSources.push(inputVal);
+                }
+            }
+
+            window.saveDataToCloud();
+            populateDropdownSources();
+            window.openManageSourcesModal(type);
+            window.showModal('สำเร็จ', `เพิ่มรายการ "${inputVal}" เรียบร้อยแล้ว`);
         };
 
         window.closeManageSourcesModal = function() {
@@ -1344,33 +1384,31 @@
 
         window.checkOtherIncomeSource = function(select) {
             const container = document.getElementById('incomeOtherContainer');
+            const input = document.getElementById('incomeSourceOther');
             if (select.value === 'อื่นๆ') {
                 container.classList.remove('hidden');
-                document.getElementById('incomeSourceOther').required = true;
+                if (input) input.required = true;
             } else {
                 container.classList.add('hidden');
-                document.getElementById('incomeSourceOther').required = false;
+                if (input) {
+                    input.required = false;
+                    input.value = '';
+                }
             }
         };
 
         window.checkOtherExpenseSource = function(select) {
             const container = document.getElementById('expenseOtherContainer');
+            const input = document.getElementById('expenseSourceOther');
             if (select.value === 'อื่นๆ') {
                 container.classList.remove('hidden');
-                document.getElementById('expenseSourceOther').required = true;
+                if (input) input.required = true;
             } else {
                 container.classList.add('hidden');
-                document.getElementById('expenseSourceOther').required = false;
-            }
-        };
-
-        window.toggleExpenseCardSelection = function(select) {
-            const container = document.getElementById('expenseCardContainer');
-            if (select.value === 'card') {
-                container.classList.remove('hidden');
-                populateExpenseCardDropdown();
-            } else {
-                container.classList.add('hidden');
+                if (input) {
+                    input.required = false;
+                    input.value = '';
+                }
             }
         };
 
@@ -1393,10 +1431,9 @@
                 id: Date.now().toString(),
                 type: 'income',
                 amount: amount,
-                source: source,
+                source: source || 'รายรับอื่นๆ',
                 date: date,
-                image: tempImages.income,
-                isRecurring: false
+                image: tempImages.income
             };
 
             appData.transactions.push(newTx);
@@ -1440,7 +1477,7 @@
                 id: Date.now().toString(),
                 type: 'expense',
                 amount: amount,
-                source: source,
+                source: source || 'รายจ่ายอื่นๆ',
                 payMethod: payMethod,
                 cardId: payMethod === 'card' ? cardId : null,
                 date: date,
@@ -1459,6 +1496,16 @@
 
             window.showModal('สำเร็จ', 'บันทึกรายจ่ายเรียบร้อยแล้วค่ะ');
             window.switchTab('dashboard');
+        };
+
+        window.toggleExpenseCardSelection = function(select) {
+            const container = document.getElementById('expenseCardContainer');
+            if (select.value === 'card') {
+                container.classList.remove('hidden');
+                populateExpenseCardDropdown();
+            } else {
+                container.classList.add('hidden');
+            }
         };
 
         function populateExpenseCardDropdown() {
@@ -1523,7 +1570,7 @@
                 if (available < 0) {
                     isOver = true;
                     overpayment = Math.abs(available);
-                    card.interestPaid = (card.interestPaid || 0) + (overpayment * 0.001); // Accumulate simulated interest/fee
+                    card.interestPaid = (card.interestPaid || 0) + (overpayment * 0.001);
                     available = 0;
                 }
 
@@ -1535,7 +1582,7 @@
                     <div>
                         <div class="flex justify-between items-start mb-2">
                             <h3 class="font-bold text-base text-slate-900">${card.name}</h3>
-                            <button type="button" onclick="deleteCard('${card.id}')" class="text-slate-400 hover:text-rose-600 text-xs transition p-1"><i class="fa-solid fa-trash"></i></button>
+                            <button type="button" onclick="window.deleteCard('${card.id}')" class="text-slate-400 hover:text-rose-600 text-xs transition p-1"><i class="fa-solid fa-trash"></i></button>
                         </div>
                         <div class="space-y-1.5 text-xs">
                             <div class="flex justify-between"><span class="text-slate-500">วงเงินทั้งหมด:</span> <span class="font-semibold text-slate-800">฿${card.limit.toLocaleString()}</span></div>
@@ -1549,10 +1596,10 @@
                         </div>
                     </div>
                     <div class="grid grid-cols-2 gap-2 pt-2 border-t border-slate-100">
-                        <button onclick="openCardActionModal('${card.id}', 'use')" class="py-2 bg-rose-50 hover:bg-rose-100 text-rose-700 rounded-xl text-xs font-semibold transition flex items-center justify-center space-x-1">
+                        <button onclick="window.openCardActionModal('${card.id}', 'use')" class="py-2 bg-rose-50 hover:bg-rose-100 text-rose-700 rounded-xl text-xs font-semibold transition flex items-center justify-center space-x-1">
                             <i class="fa-solid fa-circle-minus"></i> <span>ใช้วงเงิน</span>
                         </button>
-                        <button onclick="openCardActionModal('${card.id}', 'pay')" class="py-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 rounded-xl text-xs font-semibold transition flex items-center justify-center space-x-1">
+                        <button onclick="window.openCardActionModal('${card.id}', 'pay')" class="py-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-700 rounded-xl text-xs font-semibold transition flex items-center justify-center space-x-1">
                             <i class="fa-solid fa-circle-plus"></i> <span>จ่ายคืน</span>
                         </button>
                     </div>
@@ -1572,7 +1619,6 @@
                     </div>
                     ${(card.interestPaid || 0) > 0 ? `<div class="text-[10px] text-amber-700 font-semibold bg-amber-50 px-2 py-0.5 rounded">ดอกเบี้ย/ค่าธรรมเนียม: ฿${card.interestPaid.toLocaleString(undefined, {minimumFractionDigits: 2})}</div>` : ''}
                 `;
-                dashCardEl.appendChild(dashCardEl); // Wait, fix appending logic
                 dashContainer.appendChild(dashCardEl);
             });
         };
@@ -1624,7 +1670,6 @@
                 } else {
                     card.used -= amount;
                     if (card.used < 0) {
-                        // Payment overage
                         const over = Math.abs(card.used);
                         card.interestPaid = (card.interestPaid || 0) + (over * 0.001);
                     }
@@ -1726,7 +1771,7 @@
                             <div class="flex-grow">
                                 <div class="flex justify-between items-start">
                                     <h3 class="font-bold text-base text-slate-900">${veh.name}</h3>
-                                    <button type="button" onclick="event.stopPropagation(); deleteVehicle('${veh.id}')" class="text-slate-400 hover:text-rose-600 text-xs transition p-1"><i class="fa-solid fa-trash"></i></button>
+                                    <button type="button" onclick="event.stopPropagation(); window.deleteVehicle('${veh.id}')" class="text-slate-400 hover:text-rose-600 text-xs transition p-1"><i class="fa-solid fa-trash"></i></button>
                                 </div>
                                 <p class="text-xs text-slate-500 font-medium">ทะเบียน: ${veh.plate}</p>
                             </div>
@@ -1803,7 +1848,6 @@
             document.getElementById('modalVehPrbDate').value = veh.prbDate || '';
             document.getElementById('modalVehTaxDate').value = veh.taxDate || '';
 
-            // Calculate total cost and populate tx list (Max 10 items)
             let totalCost = 0;
             const txListBody = document.getElementById('modalVehTxList');
             txListBody.innerHTML = '';
@@ -1824,7 +1868,7 @@
                         <td class="py-2 px-3 font-medium text-slate-800">${tx.source}</td>
                         <td class="py-2 px-3 text-right text-rose-600 font-semibold">-฿${tx.amount.toLocaleString(undefined, {minimumFractionDigits: 2})}</td>
                         <td class="py-2 px-3 text-center">
-                            <button type="button" onclick="deleteTransaction('${tx.id}'); window.openVehicleDetailModal('${veh.id}');" class="text-slate-400 hover:text-rose-600"><i class="fa-solid fa-trash"></i></button>
+                            <button type="button" onclick="window.deleteTransaction('${tx.id}'); window.openVehicleDetailModal('${veh.id}');" class="text-slate-400 hover:text-rose-600"><i class="fa-solid fa-trash"></i></button>
                         </td>
                     `;
                     txListBody.appendChild(tr);
@@ -1884,7 +1928,7 @@
             window.openVehicleDetailModal(vehId);
         };
 
-        // Calendar Render Logic & Google Calendar Sync
+        // Calendar Render Logic
         window.changeCalendarMonth = function(direction) {
             if (direction === 0) {
                 currentCalendarDate = new Date();
@@ -1917,7 +1961,7 @@
             });
 
             window.saveDataToCloud();
-            closeCalendarNoteModal();
+            window.closeCalendarNoteModal();
             window.renderCalendar();
             window.showModal('สำเร็จ', 'บันทึกแจ้งเตือนลงในปฏิทินเรียบร้อยแล้วค่ะ');
         };
@@ -1982,7 +2026,7 @@
                     appData.calendarNotes.filter(n => n.date === dateStr).forEach(note => {
                         const nBadge = document.createElement('div');
                         nBadge.className = "px-1.5 py-0.5 rounded truncate font-medium bg-violet-100 text-violet-800 flex items-center justify-between group";
-                        nBadge.innerHTML = `<span>${note.text}</span> <button type="button" onclick="deleteCalendarNote('${note.id}')" class="hover:text-rose-600 hidden group-hover:inline-block"><i class="fa-solid fa-xmark text-[9px]"></i></button>`;
+                        nBadge.innerHTML = `<span>${note.text}</span> <button type="button" onclick="window.deleteCalendarNote('${note.id}')" class="hover:text-rose-600 hidden group-hover:inline-block"><i class="fa-solid fa-xmark text-[9px]"></i></button>`;
                         eventsContainer.appendChild(nBadge);
                     });
                 }
@@ -2174,7 +2218,7 @@
                 let details = tx.source;
                 if (tx.payMethod === 'card') details += ` <span class="text-xs bg-indigo-100 text-indigo-700 px-1.5 py-0.5 rounded ml-1">หักจากวงเงิน</span>`;
 
-                let imgHtml = tx.image ? `<img src="${tx.image}" onclick="openImageModal('${tx.image}')" class="w-10 h-10 object-cover rounded-lg cursor-pointer border border-slate-200 hover:opacity-80 transition">` : '-';
+                let imgHtml = tx.image ? `<img src="${tx.image}" onclick="window.openImageModal('${tx.image}')" class="w-10 h-10 object-cover rounded-lg cursor-pointer border border-slate-200 hover:opacity-80 transition">` : '-';
 
                 tr.innerHTML = `
                     <td class="py-3 px-4 text-xs text-slate-500">${tx.date}</td>
